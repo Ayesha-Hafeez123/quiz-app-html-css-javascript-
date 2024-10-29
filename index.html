@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1><i><u>"Quiz App MADE BY AYESHA MUGHAL"</u></i></h1>
+        <button id="start-btn" onclick="startQuiz()">Start Quiz</button>
+        <div id="timer" class="hidden">Time: 50m 0s</div> 
+        <br>
+        <div id="score" class="hidden">Score: 0</div> 
+        <br>
+        <div id="question-container" class="hidden">
+            <div id="question"></div>
+            <div id="options"></div>
+        </div>
+        <button id="next-btn" class="hidden" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
